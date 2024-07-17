@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(214, 224, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+::selection {
+    color: white;
+    background-color: coral;
+}
+.container {
+    width: 60%;
+    margin: 100px auto ;
+    /* margin-right: 10px; */
+    border: 2px solid ;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 4px black;
+}
+.img1 {
+    border-radius: 50%; 
+}
+header {
+    text-align: center;
+}
+.p2 {
+    text-align: left;
+}
+.line {
+    border: 1px solid rgba(128, 128, 128, 0.776) ;
+}
+.img2 , .img3 , .img4 , .img5 {
+    float: left;
+    margin-right: 15px;
+}
+h3 {
+    padding-top: 4px;
+    color: rgb(44, 42, 42);
+}
+h4 , p{
+    color: rgba(40, 38, 38, 0.804);
+}
+.education {
+   line-height: 30px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.li1 {
+    margin-right: 60px;
+    margin-left: 30px;
+}
+li {
+    margin-left: 10px;
+    /* display: flex; */
+}
+
+
+.prog1 {
+    width: 100%;
+    height: 10px;
+    margin-bottom:  10px ;
+}
+progress {
+    width: 80%;
+    height: 15px;
+    float: right;
+    margin-top: 3px;
+    appearance: none;  /* Désactive le style par défaut */
+}  
+    progress::-webkit-progress-bar {
+       background-color: #dbd5d5cb;
+       border-radius: 10px;
+    } 
+    progress::-webkit-progress-value {
+       background-color: coral;
+       border-radius: 10px;
+    }
+
+
+
